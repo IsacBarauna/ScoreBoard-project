@@ -1,0 +1,127 @@
+ @font-face {
+     src: url(fonts/cursed-timer);
+     font-family: cursed;
+     }
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    width: 800px
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-scorecard {
+    text-align: center;
+}
+
+button, h1 {
+    font-family: cursed;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    color: #fff; 
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    margin: 60px auto 0px
+}
+
+h1 {
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 140px;
+}
+
+.team-points {
+    margin: 21px auto 29px;
+    background-color: #080001;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #F94F6D;
+}
+
+button {
+    
+    padding: 10px 8px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: solid #9AABD8 2px;
+    border-radius: 6px
+}
+
+button:hover {
+border-color: #a7c957;
+color: #a7c957;
+}
+
+.space {
+    margin: 0px 20px;
+}
+
+#new-game {
+    margin: 20px auto;
+    /* border: solid red 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 12px 15px 12px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #9AABD8;
+    color: #1B244A
+}
+
+#new-game:hover{
+    background-color: #a7c957;
+    color: #fff;
+}
+
+/* #home-minus {
+    margin: 15px auto 20px 73px;
+    position: relative;
+} */
+
+#home-minus:hover{
+    border-color:  #F94F6D;
+    color:  #F94F6D;
+}
+
+/* #guest-minus {
+    margin: 15px 100px 20px 270px;
+} */
+
+#guest-minus:hover{
+    border-color:  #F94F6D;
+    color:  #F94F6D;
+}
+
+.minus-btns {
+    display: flex;
+    justify-content: center;
+}
+
+#home-minus {
+    margin: 15px 115px;
+}
+
+#guest-minus {
+    margin: 15px 246px;
+}
